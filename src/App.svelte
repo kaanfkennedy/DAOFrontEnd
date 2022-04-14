@@ -27,7 +27,7 @@
 			},
 			body: JSON.stringify({
 				vote: vote,
-				motionId: motionId + 1
+				motionId: motionId + 1 // motions ids are starting with 1 but indexes not.
 			})
 		});
 
